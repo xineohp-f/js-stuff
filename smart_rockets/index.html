@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Smart Rockets</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="../lib/p5.js"></script>
+	<script src="../lib/p5.dom.js"></script>
+	<script src="sketch.js"></script>
+</head>
+<body>
+	<div id="stats">
+		Generation: <b id="generation"></b>
+		| Population: <b id="population"></b><br>
+		Current Hit: <b id="curHit"></b><br>
+		Max Hit: <b id="maxHit"></b>
+		| Frame: <b id="count"></b><br><br>
+		Target: 
+		<button onclick="changeTool(this)" id="setTarget">Set Target</button><br>
+		Obstacles: 
+		<button onclick="changeTool(this)" id="addOb">Add</button>
+		<button onclick="changeTool(this)" id="delOb">Delete</button>
+	</div>
+</body>
+</html>
